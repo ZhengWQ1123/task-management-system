@@ -1,0 +1,195 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "teacher1",
+      "name": "张明华",
+      "role": "teacher",
+      "college": "计算机学院",
+      "email": "zhangmh@university.edu.cn"
+    },
+    {
+      "id": "2",
+      "username": "teacher2",
+      "name": "李晓燕",
+      "role": "teacher",
+      "college": "计算机学院",
+      "email": "lixy@university.edu.cn"
+    },
+    {
+      "id": "3",
+      "username": "college_admin",
+      "name": "王建国",
+      "role": "college_admin",
+      "college": "计算机学院",
+      "email": "wangjg@university.edu.cn"
+    },
+    {
+      "id": "4",
+      "username": "academic_admin",
+      "name": "刘淑芬",
+      "role": "academic_admin",
+      "college": "教务处",
+      "email": "liushf@university.edu.cn"
+    },
+    {
+      "id": "5",
+      "username": "admin",
+      "name": "系统管理员",
+      "role": "system_admin",
+      "email": "admin@university.edu.cn"
+    }
+  ],
+  "plans": [
+    {
+      "id": "plan-001",
+      "title": "2024-2025学年第一学期《数据结构》授课计划",
+      "teacher_id": "1",
+      "teacher_name": "张明华",
+      "college": "计算机学院",
+      "course_name": "数据结构",
+      "content": "本课程主要讲授线性表、栈、队列、树、图等基本数据结构及其常用算法。课程采用理论讲授与实践相结合的方式，培养学生分析问题和解决问题的能力。\n\n教学目标：\n1. 掌握基本数据结构的原理和实现\n2. 能够分析算法的时间复杂度和空间复杂度\n3. 培养良好的编程习惯和代码风格\n\n教学安排：\n- 第1-4周：线性表和链表\n- 第5-8周：栈和队列\n- 第9-12周：树和二叉树\n- 第13-16周：图论基础\n\n考核方式：平时成绩30%+期中考试30%+期末考试40%",
+      "attachments": [],
+      "status": "college_reviewing",
+      "ai_evaluation": {
+        "id": "eval-001",
+        "plan_id": "plan-001",
+        "score": 85,
+        "dimension_scores": {
+          "completeness": 88,
+          "clarity": 82,
+          "alignment": 85,
+          "practicality": 85
+        },
+        "suggestions": [
+          "建议增加与产业实际应用结合的案例，如在互联网公司中的应用场景",
+          "可以补充在线评测系统的使用说明",
+          "建议明确实验项目的具体要求和评分标准"
+        ],
+        "strengths": [
+          "教学目标清晰，层次分明",
+          "教学内容覆盖全面",
+          "考核方式合理，比重分配适当"
+        ],
+        "evaluated_at": "2024-12-15T10:30:00Z"
+      },
+      "created_at": "2024-12-10T08:00:00Z",
+      "updated_at": "2024-12-15T10:30:00Z"
+    },
+    {
+      "id": "plan-002",
+      "title": "2024-2025学年第一学期《人工智能导论》授课计划",
+      "teacher_id": "2",
+      "teacher_name": "李晓燕",
+      "college": "计算机学院",
+      "course_name": "人工智能导论",
+      "content": "本课程介绍人工智能的基本概念、发展历程和主要技术方向。涵盖机器学习、深度学习、自然语言处理等核心领域。\n\n教学目标：\n1. 理解人工智能的基本概念和发展脉络\n2. 掌握机器学习的基本原理和方法\n3. 了解深度学习在图像和语音领域的应用\n\n教学安排：\n- 第1-3周：人工智能概述\n- 第4-7周：机器学习基础\n- 第8-11周：深度学习入门\n- 第12-14周：自然语言处理\n- 第15-16周：人工智能伦理与前沿",
+      "attachments": [],
+      "status": "submitted",
+      "created_at": "2024-12-12T14:00:00Z",
+      "updated_at": "2024-12-12T14:00:00Z"
+    },
+    {
+      "id": "plan-003",
+      "title": "2024-2025学年第二学期《软件工程》授课计划",
+      "teacher_id": "1",
+      "teacher_name": "张明华",
+      "college": "计算机学院",
+      "course_name": "软件工程",
+      "content": "本课程讲授软件工程的基本理论、方法和工具，培养学生的软件开发工程化能力。\n\n教学目标：\n1. 掌握软件工程的基本原理\n2. 熟悉软件开发过程模型\n3. 能够进行软件需求分析和设计\n\n教学安排：\n- 第1-4周：软件工程概述与过程模型\n- 第5-8周：需求分析与建模\n- 第9-12周：软件设计与架构\n- 第13-16周：软件测试与维护",
+      "attachments": [],
+      "status": "final_approved",
+      "created_at": "2024-11-20T09:00:00Z",
+      "updated_at": "2024-12-01T16:00:00Z"
+    },
+    {
+      "id": "plan-004",
+      "title": "2024-2025学年第一学期《计算机网络》授课计划",
+      "teacher_id": "2",
+      "teacher_name": "李晓燕",
+      "college": "计算机学院",
+      "course_name": "计算机网络",
+      "content": "本课程讲授计算机网络的基本原理、协议和技术。\n\n教学目标：\n1. 理解网络分层体系结构\n2. 掌握TCP/IP协议栈\n3. 了解网络安全基础",
+      "attachments": [],
+      "status": "draft",
+      "created_at": "2024-12-14T11:00:00Z",
+      "updated_at": "2024-12-14T11:00:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-001",
+      "plan_id": "plan-001",
+      "reviewer_id": "3",
+      "reviewer_name": "王建国",
+      "stage": "college",
+      "status": "approved",
+      "comment": "计划内容完整，教学安排合理，同意上报教务处审批。",
+      "created_at": "2024-12-15T14:00:00Z"
+    }
+  ],
+  "training_programs": [
+    {
+      "id": "tp-001",
+      "name": "计算机科学与技术专业培养方案",
+      "college": "计算机学院",
+      "objectives": [
+        "培养具有良好的科学素养和人文情怀的应用型高级专门人才",
+        "掌握计算机科学与技术领域的基础理论、基本知识和基本技能",
+        "具备创新意识和工程实践能力，能够从事计算机系统开发与应用"
+      ],
+      "courses": [
+        "计算机导论", "程序设计基础", "数据结构", "算法设计与分析",
+        "计算机组成原理", "操作系统", "计算机网络", "数据库原理",
+        "软件工程", "人工智能导论"
+      ],
+      "industry_requirements": [
+        "具备软件开发能力，熟悉主流开发语言和框架",
+        "了解云计算、大数据、人工智能等新技术",
+        "具有良好的团队协作和沟通能力",
+        "掌握软件工程规范，具备项目管理能力"
+      ],
+      "created_at": "2024-09-01T00:00:00Z",
+      "updated_at": "2024-09-01T00:00:00Z"
+    },
+    {
+      "id": "tp-002",
+      "name": "软件工程专业培养方案",
+      "college": "计算机学院",
+      "objectives": [
+        "培养掌握软件工程领域基础理论和技术方法的工程型、应用型人才",
+        "具备软件系统的分析、设计、开发、测试和管理能力"
+      ],
+      "courses": [
+        "软件工程导论", "面向对象程序设计", "数据结构", "数据库原理",
+        "软件架构与设计模式", "软件测试", "软件项目管理"
+      ],
+      "industry_requirements": [
+        "熟悉软件工程标准与规范",
+        "具备需求分析和系统设计能力",
+        "掌握敏捷开发和DevOps实践"
+      ],
+      "created_at": "2024-09-01T00:00:00Z",
+      "updated_at": "2024-09-01T00:00:00Z"
+    }
+  ],
+  "course_standards": [
+    {
+      "id": "cs-001",
+      "program_id": "tp-001",
+      "course_name": "数据结构",
+      "standards": [
+        "掌握线性表、栈、队列的原理和实现",
+        "理解树和二叉树的遍历算法",
+        "掌握图的基本存储结构和最短路径算法",
+        "能够分析算法的时间复杂度和空间复杂度"
+      ],
+      "assessment_methods": [
+        "平时作业和实验",
+        "期中考试",
+        "期末考试",
+        "课程设计"
+      ]
+    }
+  ]
+}
